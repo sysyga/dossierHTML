@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin :0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: white;
+    background-size: cover;
+    background-repeat:no-repeat; 
+    font-family: sans-serif;
+    height: 80 vh;
+}
+.nav-list{
+    padding:1rem 0 ;
+    display:flex;
+    justify-content:flex-end;
+    border: 1px solid black  ; 
+    background-color: blue;
+    text-align:center;
+
+
+}
+.nav-item{
+    margin-right:2rem;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.nav-item a{
+    color:#000;
+    letter-spacing: 1.2px
+}
+button{
+    margin-right: 6px;
+}
